@@ -1,0 +1,74 @@
+2015-12-07 11:00:27 weka.gui.GUIChooser main
+INFO: Logging started
+2015-12-07 11:00:50 weka.gui.GenericObjectEditor registerEditors
+INFO: ---Registering Weka Editors---
+2015-12-07 11:00:50 weka.gui.GenericObjectEditor registerEditor
+WARNING: Problem registering ShowGlobalInfoToolTip/true: java.lang.ClassNotFoundException: ShowGlobalInfoToolTip
+2015-12-07 11:00:54 weka.experiment.DatabaseUtils initialize
+WARNING: Trying to add database driver (JDBC): jdbc.idbDriver - Warning, not in CLASSPATH?
+2015-12-07 11:00:55 weka.gui.beans.BeansProperties loadProperties
+INFO: [KnowledgeFlow] Loading properties and plugins...
+2015-12-07 11:00:55 weka.gui.beans.KnowledgeFlowApp init
+INFO: [KnowledgeFlow] Initializing KF...
+2015-12-07 11:01:04 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2015-12-07 11:01:04 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2015 The University of Waikato, Hamilton, New Zealand
+2015-12-07 11:01:04 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2015-12-07 11:01:04 weka.gui.explorer.Explorer <init>
+INFO: Started on Monday, 7 December 2015
+2015-12-07 11:01:27 weka.gui.explorer.PreprocessPanel$14 run
+INFO: Base relation is now crime Fact (1999 instances)
+2015-12-07 11:03:10 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Started weka.classifiers.rules.ZeroR
+2015-12-07 11:03:10 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Command: weka.classifiers.rules.ZeroR 
+2015-12-07 11:03:16 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Interrupted weka.classifiers.rules.ZeroR
+2015-12-07 11:04:03 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Started weka.classifiers.rules.ZeroR
+2015-12-07 11:04:03 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Command: weka.classifiers.rules.ZeroR 
+2015-12-07 11:04:10 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Interrupted weka.classifiers.rules.ZeroR
+2015-12-07 11:04:16 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Started weka.classifiers.rules.ZeroR
+2015-12-07 11:04:16 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Command: weka.classifiers.rules.ZeroR 
+2015-12-07 11:05:16 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Finished weka.classifiers.rules.ZeroR
+2015-12-07 11:06:44 weka.gui.explorer.ClustererPanel$15 run
+INFO: Started weka.clusterers.FilteredClusterer
+2015-12-07 11:06:44 weka.gui.explorer.ClustererPanel$15 run
+INFO: Command: weka.clusterers.FilteredClusterer -F "weka.filters.AllFilter " -W weka.clusterers.SimpleKMeans -- -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+weka.core.UnsupportedAttributeTypeException: weka.clusterers.SimpleKMeans: Cannot handle string attributes!
+	weka.core.Capabilities.test(Capabilities.java:1164)
+	weka.core.Capabilities.test(Capabilities.java:1044)
+	weka.core.Capabilities.test(Capabilities.java:1277)
+	weka.core.Capabilities.test(Capabilities.java:1208)
+	weka.core.Capabilities.testWithFail(Capabilities.java:1506)
+	weka.clusterers.FilteredClusterer.buildClusterer(FilteredClusterer.java:355)
+	weka.gui.explorer.ClustererPanel$15.run(ClustererPanel.java:922)
+
+	at weka.core.Capabilities.test(Capabilities.java:1164)
+	at weka.core.Capabilities.test(Capabilities.java:1044)
+	at weka.core.Capabilities.test(Capabilities.java:1277)
+	at weka.core.Capabilities.test(Capabilities.java:1208)
+	at weka.core.Capabilities.testWithFail(Capabilities.java:1506)
+	at weka.clusterers.FilteredClusterer.buildClusterer(FilteredClusterer.java:355)
+	at weka.gui.explorer.ClustererPanel$15.run(ClustererPanel.java:922)
+2015-12-07 11:06:44 weka.gui.explorer.ClustererPanel$15 run
+INFO: weka.clusterers.SimpleKMeans: Cannot handle string attributes!
+2015-12-07 11:07:04 weka.gui.explorer.ClustererPanel$15 run
+INFO: Started weka.clusterers.HierarchicalClusterer
+2015-12-07 11:07:04 weka.gui.explorer.ClustererPanel$15 run
+INFO: Command: weka.clusterers.HierarchicalClusterer -N 2 -L SINGLE -P -A "weka.core.EuclideanDistance -R first-last"
+2015-12-07 11:12:10 weka.gui.explorer.ClustererPanel$15 run
+INFO: Finished weka.clusterers.HierarchicalClusterer
+2015-12-07 11:18:02 weka.gui.explorer.AssociationsPanel$7 run
+INFO: Started weka.associations.FilteredAssociator
+2015-12-07 11:18:03 weka.gui.explorer.AssociationsPanel$7 run
+INFO: Command: weka.associations.FilteredAssociator -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.ReplaceMissingValues \"" -c -1 -W weka.associations.Apriori -- -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+2015-12-07 11:18:03 weka.gui.explorer.AssociationsPanel$7 run
+INFO: weka.associations.Apriori: Cannot handle numeric attributes!
