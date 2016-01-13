@@ -1,0 +1,195 @@
+/*CSS reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+ 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ 
+fieldset,img {
+  border: 0;
+}
+ 
+address,caption,cite,code,dfn,em,strong,th,var,optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+ 
+li {
+  list-style: none;
+}
+ 
+caption,th {
+  text-align: left;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+ 
+q:before,q:after {
+  content: '';
+}
+ 
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+ 
+legend {
+  color: #000;
+}
+ 
+input,button,textarea,select,optgroup,option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+ 
+input,button,textarea,select {
+  font-size: 100%;
+}
+ 
+body {
+  border: 0 none;
+  font-family: Arial;
+}
+
+// my styles
+
+
+.container{ 
+margin-top:5px;
+}
+
+#myPicture{
+    width: 160px;
+    height: 154px;
+    border-radius: 80%;
+    overflow: hidden;
+    padding: 5px;
+    background: #EDEDED none repeat scroll 0% 0%;
+    text-align:center;
+    margin-left:37%;
+    margin-top:-70px;
+
+ }
+ #myPicture{
+   width: 160px;
+    height: 154px;
+    border-radius: 80%;
+    overflow: hidden;
+    padding: 5px;
+    background: #EDEDED none repeat scroll 0% 0%;
+    text-align:center;
+    margin-left:37%;
+    margin-top:-70px;
+ }
+#row1Icons{
+margin-top:-90px;
+}
+
+#marg{
+  margin-top:10px;
+}
+#fontReduce{
+  margin-top:10px;
+ font-size:13.5px; 
+ font-weight: 300;
+}
+.row1{
+  margin-top:30px;
+  font-size:2.0em;
+}
+
+.row{
+ background: white none repeat scroll 0% 0%;
+}
+#small{
+  font-size:0.4em;
+letter-spacing:-1px;
+}
+#margin{
+  margin-top:10px;
+  padding:4px;
+  border-bottom: solid 1px lightgrey;
+  border-right: solid 1px lightgrey;
+  line-height: 1;
+}
+
+   #margin1{
+  margin-top:0px;
+  padding:4px;
+  border-bottom: solid 1px lightgrey;
+  border-right: solid 1px lightgrey;
+}
+ #text{
+  text-align:center;
+  margin-left:-10%;
+  font-size: 3.4em;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -4px;
+ }
+#pad{
+  margin-left:20px;
+}
+
+#red{
+color:red;
+margin-top:10px;
+text-align:left;
+text-transform:uppercase;
+}
+
+body {
+ box-sizing: border-box;
+  font-family: "Open Sans",Arial,Tahoma;
+font-weight: 400;
+
+ margin-top:70px;
+font-size: 1em;
+color: #3636AA;
+ background: #EDEDED none repeat scroll 0% 0%;
+}
+
+.row1{
+
+  background: black none repeat scroll 0% 0%;
+}
+.box_round {
+  border-radius: 12px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+
+  /* useful if you don't want a bg color from leaking outside the border: */
+  background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
+}
+
+.top{
+  margin-top:-30px;
+}
+
+.bg-primary{
+  margin-top:5px;
+  width:45%;
+  text-align:center;
+  background-color:lightblue;
+  height:30 px;
+  float:left;
+  margin-right:5%;
+}
+
+#year{
+  float:left;
+}
+#yeararrows{
+  clear:both;
+  margin-left:15px;
+  height:30px;
+  
+  border-left:solid 8px red;
+}
